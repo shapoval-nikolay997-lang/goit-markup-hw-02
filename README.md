@@ -1,4 +1,2 @@
-# my-first-projekt
+# hw-02
 
-This is myfirst projekt
-g
