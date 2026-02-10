@@ -1,0 +1,186 @@
+/* #region base styles */
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+/* #region reset */
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+/* #endregion */
+
+
+/* #region btn */
+.logo-light {
+    color: #F4F4FD;
+}
+
+.logo-dark {
+    color: #2E2F42;
+}
+
+.logo-blu {
+    color: #4D5AE5;
+}
+
+/* #endregion */
+
+/* #region header */
+
+
+
+.nav-desc-link {
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* #endregion */
+
+/* #region section hero 1 */
+.hero {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07143;
+    text-align: center;
+    color: #fff;
+}
+
+.btn {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+/* #endregion */
+
+/* #region section2 */
+
+
+.benefits-caption {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.benefits-desc {
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434455;
+}
+
+/* #endregion */
+
+/* #region section people 3 */
+
+.people {
+    background: #f4f4fd;
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+.people-text {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+}
+
+
+
+.people-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.title-subtitle-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+/* #endregion */
+
+/* #region work */
+
+
+.work-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+}
+
+.work-title-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+
+
+.work-prof {
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434455;
+}
+
+/* #endregion */
+
+/* #region footer */
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+
+
+
+.footre-caption {
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* #endregion */
+
+/* #region socials */
+.socials {}
+
+.socials-linc {
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434455;
+}
+
+/* #endregion */

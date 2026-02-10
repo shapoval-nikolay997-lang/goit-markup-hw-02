@@ -1,11 +1,223 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>This is an example project</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./images/Logo.svg" type="images/svg-xml" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a class="logo" href="./index.html">
+          <span class="logo-blu">Web</span>
+        </a>
+        <a class="logo" href="./index.html">
+          <span class="logo-light">Studio</span>
+        </a>
+        <a class="logo" href="./index.html">
+          <span class="logo-dark">Studio</span>
+        </a>
+
+        <ul class="nav-desc">
+          <li class="nav-desc-item">
+            <a class="nav-desc-link" href="#Studio">Studio</a>
+          </li>
+          <li class="nav-desc-item">
+            <a class="nav-desc-link" href="#Portfolio">Portfolio</a>
+          </li>
+          <li class="nav-desc-item">
+            <a class="nav-desc-link" href="#Contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <address class="socials">
+        <a class="socials-linc" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <a class="socials-linc" href="tel:+110001111111">+11 (000) 111-11-11</a>
+      </address>
+    </header>
+    <main>
+      <section class="hero" id="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="btn" type="button">Order Service</button>
+      </section>
+      <section class="benefits" id="benefits">
+        <h2>Our features</h2>
+        <ul class="benefits-list">
+          <li class="benefits-item">
+            <h3 class="benefits-caption">Strategy</h3>
+            <p class="benefits-desc">
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
+          <li class="benefits-item">
+            <h3 class="benefits-caption">Punctuality</h3>
+            <p class="benefits-desc">
+              Bring the key message to the brand's audience for the best price
+              within the shortest possible time.
+            </p>
+          </li>
+          <li class="benefits-item">
+            <h3 class="benefits-caption">Diligence</h3>
+            <p class="benefits-desc">
+              Research and confirm brands with the strongest digital growth
+              opportunities and minimize risk.
+            </p>
+          </li>
+          <li class="benefits-item">
+            <h3 class="benefits-caption">Technologies</h3>
+            <p class="benefits-desc">
+              Design practice focused on digital experiences. We bring forth a
+              deep passion for problem-solving.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="people" id="people">
+        <h2 class="people-text">Our Team</h2>
+        <ul class="people-list">
+          <li class="people-item">
+            <img
+              class="people-ill"
+              src="./images/img.jpg"
+              alt="Mark Guerrero"
+              width="264"
+              height="260"
+            />
+            <h3 class="people-subtitle">Mark Guerrero</h3>
+            <p class="title-subtitle-text">Product Designer</p>
+          </li>
+
+          <li class="people-item">
+            <img
+              class="people-ill"
+              src="./images/img1.jpg"
+              alt="Tom Ford"
+              width="264"
+            />
+            <h3 class="people-subtitle">Tom Ford</h3>
+            <p class="title-subtitle-text">Frontend Developer</p>
+          </li>
+
+          <li class="people-item">
+            <img
+              class="people-ill"
+              src="./images/img2.jpg"
+              alt="Camila Garcia"
+              width="264"
+            />
+            <h3 class="people-subtitle">Camila Garcia</h3>
+            <p class="title-subtitle-text">Marketing</p>
+          </li>
+
+          <li class="people-item">
+            <img
+              class="people-ill"
+              src="./images/img3.jpg"
+              alt="Daniel Wilson"
+              width="264"
+            />
+            <h3 class="people-subtitle">Daniel Wilson</h3>
+            <p class="title-subtitle-text">UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <section class="work" id="work">
+        <h2 class="work-title">Our Portfolio</h2>
+        <ul class="work-list">
+          <li class="work-icon">
+            <img
+              class="work-img"
+              src="./images/img4.jpg"
+              alt="Banking App"
+              width="360"
+            />
+            <h3 class="work-title-list">Banking App</h3>
+            <p class="work-prof">App</p>
+          </li>
+          <li class="work-icon">
+            <img
+              class="work-img"
+              src="./images/img5.jpg"
+              alt="Cashless Payment"
+              width="360"
+            />
+            <h3 class="work-title-list">Cashless Payment</h3>
+            <p class="work-prof">Marketing</p>
+          </li>
+          <li class="work-icon">
+            <img
+              class="work-img"
+              src="./images/img6.jpg"
+              alt="Meditation App"
+              width="360"
+            />
+            <h3 class="work-title-list">Meditation App</h3>
+            <p class="work-prof">App</p>
+          </li>
+          <li class="work-icon">
+            <img
+              class="work-img"
+              src="./images/img7.png"
+              alt="Taxi Service"
+              width="360"
+            />
+            <h3 class="work-title-list">Taxi Service</h3>
+            <p class="work-prof">Marketing</p>
+          </li>
+          <li class="work-icon">
+            <img
+              class="work-img"
+              src="./images/img8.jpg"
+              alt="Screen Illustrations"
+              width="360"
+            />
+            <h3 class="work-title-list">Screen Illustrations</h3>
+            <p class="work-prof">Design</p>
+          </li>
+          <li class="work-icon">
+            <img
+              class="work-img"
+              src="./images/img9.jpg"
+              alt="Online Courses"
+              width="360"
+            />
+            <h3 class="work-title-list">Online Courses</h3>
+            <p class="work-prof">Marketing</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <a class="logo" href="./index.html">
+        <span class="logo-blu">Web</span>
+      </a>
+      <a class="logo" href="./index.html">
+        <span class="logo-light">Studio</span>
+      </a>
+      <a class="logo" href="./index.html">
+        <span class="logo-dark">Studio</span>
+      </a>
+
+      <p class="footre-caption">
+        Increase the flow of customers and sales for your business with digital
+        marketing & growth solutions.
+      </p>
+    </footer>
+  </body>
 </html>
