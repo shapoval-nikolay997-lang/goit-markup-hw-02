@@ -129,7 +129,9 @@ font-weight: 700;
     line-height: 1.11;
     text-align: center;
 }
-
+.people-item {
+    background-color: #fff;
+}
 
 
 .people-subtitle {
@@ -180,6 +182,9 @@ font-weight: 700;
 /* #region footer */
 .footer {
     background-color: #2E2F42;
+    color: #F4F4FD;
+}
+.logo {
     color: #F4F4FD;
 }
 
