@@ -10,11 +10,13 @@ body {
     color: #2E2F42;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-weight: 700;
+    
     letter-spacing: 0.02em;
 }
-.socials .socials-linc:hover {
-color: blue;
+.socials .socials-linc:hover,
+.socials .socials-linc:focus
+{
+color: #404bbf;
 }
 
 /* #region reset */
@@ -46,6 +48,10 @@ address {
 .nav-desc-link {
     font-weight: 500;
     line-height: 1.5;
+}
+.nav-desc-link:hover,
+.nav-desc-link:focus {
+    color: #404bbf;
 }
 .logo {
     font-family: "Releway",sans-serif;
@@ -80,8 +86,8 @@ address {
     color: #fff;
 }
 
-.hero-button:hover,
-.hero-botton:focus {
+.hero-btn:hover,
+.hero-btn:focus {
     background-color: #404bbf;
 }
 
@@ -184,7 +190,7 @@ address {
 /* #region footer */
 .footer {
     background-color: #f4f4fd;
-    padding: 40px 0;
+   
 }
 
 
@@ -202,6 +208,7 @@ address {
 
 
 .footre-caption {
+    color: #f4f4fd;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
