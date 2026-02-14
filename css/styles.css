@@ -54,7 +54,7 @@ address {
     color: #404bbf;
 }
 .logo {
-    font-family: "Releway",sans-serif;
+    font-family: "Raleway",sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16;
@@ -86,8 +86,8 @@ address {
     color: #fff;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.btn:hover,
+.btn:focus {
     background-color: #404bbf;
 }
 
@@ -189,7 +189,7 @@ address {
 
 /* #region footer */
 .footer {
-    background-color: #f4f4fd;
+    background-color:  #2e2f42;
    
 }
 
